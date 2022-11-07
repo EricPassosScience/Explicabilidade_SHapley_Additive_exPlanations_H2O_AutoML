@@ -7,7 +7,9 @@ AutoML  ou  Automated  Machine  Learning é  o  processo  de  automatizar  as  t
 O  desenvolvimento  do  modelo  de  Machine  Learning  tradicional  tem  uso  intensivo  de recursos,  exigindo  conhecimento  de  domínio  significativo  e  tempo  para  produzir  e  comparar dezenas de modelos. Com AutoML, acelera-se o tempo necessário para obter modelos de ML prontos para produção com grande facilidade e eficiência.
 
 ## O que são os valores SHAPE? 
-Por outro lado, SHAP – que significa SHpley Additive exPlanations –  provavelmente o estado da arte em explicabilidade de Machine Learning. Esse algoritmo foi publicado pela primeira vez em 2017 por Lundberg  e  Lee  (abaixo está  o link  do artigo  original)  e  é  uma  maneira  brilhante  de  fazer engenharia reversa da saída de qualquer algoritmo preditivo. Link - https://arxiv.org/abs/1705.07874
+Por outro lado, SHAP – que significa SHpley Additive exPlanations –  provavelmente o estado da arte em explicabilidade de Machine Learning. Esse algoritmo foi publicado pela primeira vez em 2017 por Lundberg  e  Lee  (abaixo está  o link  do artigo  original)  e  é  uma  maneira  brilhante  de  fazer engenharia reversa da saída de qualquer algoritmo preditivo. 
+
+Link - https://arxiv.org/abs/1705.07874
 
 Em  poucas  palavras,  os  valores  SHAP  são  usados  sempre  que  você  tem  um  modelo complexo (pode ser um GBM, XGBoost, uma Rede Neural ou qualquer coisa que receba alguns recursos como  entrada  e  produz  algumas  previsões  como  saída)  e  você  deseja  entender  quais decisões o modelo tomou.
 
